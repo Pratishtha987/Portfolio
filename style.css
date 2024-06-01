@@ -5,21 +5,28 @@
   padding: 0;
   /* box-sizing: border-box; */
   font-family: "Be Vietnam Pro", sans-serif;
+  box-sizing: border-box;
   scroll-behavior: smooth;
+  /* width: 100vw; */
 }
 
 :root {
   --bgOrange: #e84949;
 }
 
-.wrapper {
-  width: 100vw;
-  overflow-y: auto;
+body {
   overflow-x: hidden;
 }
 
+.wrapper {
+  width: 100vw;
+  /* overflow-y: hidden; */
+  /* overflow-x: hidden; */
+  box-sizing: border-box;
+}
+
 .container {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -630,7 +637,7 @@ a {
 
 .skillFadedText {
   font-size: 12em;
-  right: -9%;
+  right: 2%;
   bottom: -35%;
   user-select: none;
   color: #e7e7e7;
@@ -713,6 +720,7 @@ a {
 .formBtn .btn i {
   padding: 0 1rem;
   font-size: 1.5rem;
+  margin-bottom: 10px;
 }
 
 /* Contact Me Section Ends  */
