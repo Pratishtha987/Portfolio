@@ -333,6 +333,7 @@ a {
 .project-section {
   background-color: rgb(231, 231, 231);
   margin-top: 4rem;
+  /* width: 80%; */
 }
 
 .page-header {
@@ -340,10 +341,11 @@ a {
   font-size: 90px;
   text-align: center;
   padding-top: 30px;
+  /* width: 80vw; */
 }
 
 .project-container {
-  max-width: 85vw;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 3rem 0;
   display: flex;
@@ -352,7 +354,7 @@ a {
 }
 
 .project-card {
-  width: 90%;
+  width: 80%;
   height: 550px;
   background-image: url(./ProjectImages/QuizApplication.png);
   background-size: cover;
