@@ -343,7 +343,7 @@ a {
 }
 
 .project-container {
-  max-width: 1200px;
+  max-width: 85vw;
   margin: 0 auto;
   padding: 3rem 0;
   display: flex;
