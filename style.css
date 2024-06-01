@@ -506,7 +506,7 @@ a {
   background-image: url(./ProjectImages/AmazonClone.png);
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 900px) {
   .page-header {
     padding-top: 30px;
     color: var(--bgOrange);
